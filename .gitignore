@@ -13,3 +13,6 @@ xcuserdata/
 
 # Swift Package Manager
 .build/
+
+# 배포 산출물(.dmg 등)
+dist/
