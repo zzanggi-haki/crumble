@@ -22,6 +22,18 @@
 - 📊 **통계** — 주간/월간 차트 + 카테고리 분해, CSV 내보내기(하루·앱별 tidy)
 - 🪶 **가벼움** — 평소 CPU ≈ 0%, 메모리 ~15MB (팝오버 닫힘 시 갱신 중단)
 
+## 설치
+
+터미널에 아래 한 줄을 붙여넣으면 최신 버전이 응용 프로그램에 설치되고 바로 실행돼요
+(Gatekeeper 경고 없음). macOS 14 이상, Apple Silicon·Intel 모두 지원.
+
+```sh
+curl -fsSL https://raw.githubusercontent.com/zzanggi-haki/crumble/main/scripts/install.sh | bash
+```
+
+수동 설치는 [Releases](https://github.com/zzanggi-haki/crumble/releases)에서 `Crumble.dmg`를
+받아 응용 프로그램으로 드래그한 뒤, 첫 실행 시 **시스템 설정 → 개인정보 보호 및 보안 → 그래도 열기**.
+
 ## 빌드 방법
 
 [xcodegen](https://github.com/yonyz/XcodeGen)으로 `project.yml`에서 Xcode 프로젝트를 생성합니다.
